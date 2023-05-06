@@ -99,7 +99,7 @@ object SkewedJoins {
 //  - redistribution of data by n+1 join keys
 //  - uniform tasks
 
-//TODO ==> final tip from denial take this SkewedJoins lesson and broadcast lesson that will help you a lot
+//TODO ==> final tip from denial take this SkewedJoins lesson and broadcast lesson that will help you a lot in this part of all lesson
 
 
 
