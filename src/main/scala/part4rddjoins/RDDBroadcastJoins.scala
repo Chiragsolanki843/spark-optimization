@@ -62,3 +62,17 @@ object RDDBroadcastJoins {
     Thread.sleep(1000000)
   }
 }
+
+// TO Remember
+
+// Broadcasting is useful when one RDD is small
+//  - send it to all executors , join can done in memory without shuffle
+//  - no shuffles needed
+
+// Need to do broadcasting ourselves
+
+// - collect the small RDD locally
+// - call broadcast on the SparkContext
+// - mapPartitions on the big RDD
+// - use the collection locally in executors
+
